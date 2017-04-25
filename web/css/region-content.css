@@ -1,0 +1,34 @@
+/*区域代理开始*/
+.sitm{width: 100px;border: 1px solid lightgray;height: 35px;border-radius: 4px;}
+.region_d1{width: 100%;text-align: center;background: #EEEEEE;}
+.region_d1 img,.region_d2 img{dsisplay: inline-block;}
+.region_d2{width: 100%;text-align: center;background: #fdfdfd;}
+@media only screen and (min-width: 1200px) {
+	.region_d2 div{width: 1200px;margin: auto;}
+	.region_d1 div{width: 1200px;margin: auto;}
+	#region-foot div{width: 1200px;margin: auto;}
+}
+@media only screen and (max-width: 1200px) {
+	.region_d2 div{width: 100%;margin: auto;}
+	.region_d1 div{width: 100%;margin: auto;}
+	#region-foot div{width: 100%;margin: auto;}
+}
+
+
+@media only screen and (max-width: 767px) {
+	.region_input{margin-bottom: 30px;padding-left: 30px;padding-right: 30px;border: 0px solid black;}
+	.region_input span{border: 0px solid black;display: inline-block;width: 100%;font-size: 24px;font-weight: 500;margin-bottom: 30px;}
+	.region_input input{width: 100%;outline: none;margin-bottom: 20px;height: 40px;border: 1px solid lightgray;}
+	.region_input2{padding-left: 30px;padding-right: 30px;outline: none;}
+	.region_input2 span{border: 0px solid black;display: inline-block;width: 100%;font-size: 24px;font-weight: 500;margin-bottom: 30px;}
+	.region_input2 textarea{vertical-align: top;width: 100%;height: 120px;resize: none;border: 1px solid lightgray;}
+}
+@media only screen and (min-width: 768px) {
+	.region_input{margin-bottom: 30px;padding: 0px;}
+	.region_input span{border: 0px solid black;display: inline-block;width: 40%;font-size: 24px;font-weight: 500;}
+	.region_input input{width: 60%;outline: none;height: 40px;}
+	.region_input2{padding: 0px;outline: none;}
+	.region_input2 span{border: 0px solid black;display: inline-block;width: 13.3%;font-size: 24px;font-weight: 500;}
+	.region_input2 textarea{vertical-align: top;width: 86.2%;height: 120px;resize: none;border: 1px solid lightgray;}	
+}
+/*区域代理结束*/

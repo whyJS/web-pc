@@ -1,0 +1,158 @@
+/*招商加盟开始*/
+
+/*上面标题*/
+.container_top{padding: 0px;width: 100%;}
+#ZX_span{padding: 0px;}
+.ZX_span_s{display:inline-block;width: 100%;border:0px solid black;height: 1px;background: lightgray;line-height: 24px;}
+@media only screen and (max-width: 767px) {
+.ZX_span_s{display: none;}
+#activity-span{text-align: center;font-size: 18px;color: black;font-weight: 500;}
+#activity_zxhd{padding-top: 30px;padding-bottom: 20px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+#activity-span{text-align: center;font-size: 24px;color: black;font-weight: 500;}
+#activity_zxhd{padding-top: 60px;padding-bottom: 40px;width: 100%;margin: auto;padding-left: 15px;padding-right: 15px;}
+#activity_zxWB{padding-bottom: 60px;}
+}
+@media only screen and (min-width: 1200px) {
+#activity-span{text-align: center;font-size: 24px;color: black;font-weight: 500;}
+#activity_zxWB{padding-bottom: 60px;}
+#activity_zxhd{width: 1200px;margin: auto;padding-top: 60px;padding-bottom: 40px;}
+}
+
+.joinus-top-1,#qydl,#dzdl,#scrz img{
+-webkit-box-shadow: 0 0 10px 2px #d6d7dc;   
+ -moz-box-shadow: 0 0 10px 2px #d6d7dc;   
+ box-shadow: 0 0 10px 2px #d6d7dc;
+ }
+@media only screen and (min-width: 1200px) {
+				.joinus-by {
+					width: 1200px;
+					margin: auto;
+					margin-bottom: 146px;
+				}
+				.joinus-top {
+					height: 512px;
+				}
+				.joinus-top div {
+					float: left;
+				}
+				.joinus-top-1 {
+					width: 434px;
+					height: 512px;
+				}
+				.joinus-top-2 {
+					width: 726px;
+					height: 512px;
+					margin-left: 40px;
+				}
+				.joinus-top-2 div {
+					width: 100%;
+					height: 238px;
+				}
+				.joinus-top-2 div:last-child {
+					margin-top: 40px;
+				}
+				.joinus-top2 {
+					margin-top: 40px;
+				}
+			}
+			
+			@media only screen and (min-width: 992px) and (max-width: 1200px) {
+				.joinus-by {
+					width: 100%;
+					margin: auto;
+					margin-bottom: 146px;
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+				.joinus-top {
+					height: auto;
+				}
+				.joinus-top div {
+					float: left;
+				}
+				.joinus-top-1 {
+					width: 37%;
+					margin-bottom: 40px;
+				}
+				.joinus-top-2 {
+					width: 60%;
+					margin-left: 3%;
+				}
+				.joinus-top-2 div {
+					width: 100%;
+					height: 46.5%;
+				}
+				.joinus-top-2 div:last-child {
+					margin-top: 7%;
+				}
+				.joinus-top2 {
+					margin-top: 30px;
+				}
+			}
+			
+			@media only screen and (min-width: 768px) and (max-width: 992px) {
+				.joinus-by {
+					width: 100%;
+					margin: auto;
+					margin-bottom: 146px;
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+				.joinus-top {
+					height: auto;
+				}
+				.joinus-top div {
+					float: left;
+				}
+				.joinus-top-1 {
+					width: 37%;
+					margin-bottom: 40px;
+				}
+				.joinus-top-2 {
+					width: 60%;
+					margin-left: 3%;
+				}
+				.joinus-top-2 div {
+					width: 100%;
+					height: 46.5%;
+				}
+				.joinus-top-2 div:last-child {
+					margin-top: 7%;
+				}
+			}
+			
+			@media only screen and (max-width: 768px) {
+				.joinus-by {
+					width: 100%;
+					margin: auto;
+					margin-bottom: 80px;
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+				.joinus-top {
+					height: auto;
+				}
+				.joinus-top-1 {
+					width: 100%;
+					margin-bottom: 40px;
+				}
+				.joinus-img {
+					width: 100%;
+				}
+				.joinus-top-2 {
+					width: 100%;
+				}
+				.joinus-top-2 div {
+					width: 100%;
+				}
+				.joinus-top-2 div:last-child {
+					margin-top: 7%;
+				}
+				#scrz {
+					margin-top: 40px;
+				}
+			}
+
+/*招商加盟结束*/

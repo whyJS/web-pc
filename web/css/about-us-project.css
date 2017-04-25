@@ -1,0 +1,32 @@
+/*项目介绍开始*/
+.about-d2{width: 100%;background-image: url(../images/new/beijing.png);}
+.project-d4-d1 {width: 100%;background: rgba(1,1,1,0.5);padding-top: 40px;padding-bottom: 40px;}
+.project-d1 img{margin-left: -195px;}
+.project-d3{width: 100%;background-color: #F2F2F2;padding-top: 75px;padding-bottom: 105px;}
+.project-d4{padding-top: 90px;padding-bottom: 95px;background-image: url(../images/new/xmjs3.png);background-size: 100% 100%;}
+@media only screen and (min-width: 1200px) {
+	.about-d2-body{width: 1200px;margin: auto;border: 0px solid black;}
+	.about-d2-body>p{width: 100%;margin: auto;text-align: center;margin-top: 59px;line-height: 33px;font-size: 20px;color: #1A1A1A;}
+	.project-d1{width: 1200px;text-align: left;margin: auto;margin-top: 48px;margin-bottom: 33px;}
+	.project-d3-d1{width: 1200px;margin: auto;text-align: center;}
+	.project-d3-d1 img{width: 100%;display: inline-block;}
+	.project-d4-d1 p{font-size: 26px;color: #FFFFFF;line-height: 43px;text-align: center;width: 100%;}
+}
+@media only screen and (max-width: 1200px) {
+	.about-d2-body{width: 100%;margin: auto;border: 0px solid black;}
+	.about-d2-body p{width: 100%;margin: auto;text-align: center;margin-top: 59px;line-height: 33px;font-size: 20px;color: #1A1A1A;}
+	.project-d1{width: 100%;margin-top: 48px;margin-bottom: 33px;text-align: left;padding-left: 5px;padding-right: 5px;}
+	.project-d3-d1{width: 100%;margin: auto;text-align: center;}
+	.project-d3-d1 img{display: inline-block;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	.project-d4-d1 p{font-size: 26px;color: #FFFFFF;line-height: 43px;text-align: center;width: 100%;}
+	/*.project-d4-d1 p{font-size: 20px;color: #FFFFFF;line-height: 30px;text-align: center;width: 100%;}*/
+}
+@media only screen and (max-width: 767px) {
+	
+	.project-d3,.about-d2,.project-d1{padding-left: 10px;padding-right: 10px;}
+	.project-d4-d1{padding-left: 10px;padding-right: 10px;}
+	.project-d4-d1 p{font-size: 16px;color: #FFFFFF;line-height: 22px;text-align: center;width: 100%;}
+}
+/*项目介绍结束*/

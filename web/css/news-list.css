@@ -1,0 +1,40 @@
+
+/*新闻概要部分开始*/
+#news_list_lunbo{padding-right: 15px;}
+@media only screen and (min-width: 992px) {
+#news_list_lunbo{display: block;}
+#news_list_Y{display: none;}
+
+}
+@media only screen and (max-width: 992px) {
+	#news_list_lunbo{display: none;}
+#news_list_Y{display: block;}
+
+}
+@media only screen and (min-width: 768px) {
+#news_list_xi{padding-left: 15px;}
+#news_list_Y{padding-bottom: 60px;}
+#news_list_foot .row div p{height: 45px;overflow: hidden;border: 0;text-align: left;position: relative;top: -45px;background: rgba(0,85,155,0.6);line-height: 20px;color: white;padding-left: 15px;text-align: center;padding-top: 3px;padding-right: 15px;}
+}
+@media only screen and (max-width: 767px) {
+#news_list_xi{padding-left: 5px;}
+#news_list_foot{margin-top: 30px;}
+#news_list_foot .row div img{width: 100%;}
+#news_list_foot .row div{padding-left: 5px;padding-right: 2px;}
+#news_list_foot .row div p{padding-bottom: 40px;padding-top: 20px;font-size: 1.5em;}
+}
+#news_list_foot .row div{text-align: center;}
+#news_list_Y .row{padding-bottom: 5px;padding-left: 0px;}
+#news_list_xx{padding-left: 0px;padding-right: 2px;}
+
+#news_list_d2{padding-left: 50px;padding-right: 30px;}
+#news_list_d2 .row{background: #00325A;color: white;padding-top: 0px;}
+#news_list_d2 .row div{padding-top: 15px;color: white;}
+.d2_xw_bj{background: #00559B;}
+#news_list_d1 img{width: 100%;height: 360px;}
+#news_list_d2{border: 0px solid red;overflow: hidden;height: 100%;}
+#news_list_d2 .row{height: 33%;border: 0px solid black;overflow: hidden;padding-top: 0px;cursor: pointer;}
+#news_list_d3 span{display: inline-block;width: 30px;height: 30px;border-radius: 15px;background: #00325A;color: black;text-align: center;line-height: 30px;cursor: pointer;color: white;}
+#news_list_d3 .xuanzhong{background: #00559B;color: white;}
+#news_list_d2 .row .col-md-12{height: 120px;line-height: 30px;}
+/*新闻概要部分结束*/

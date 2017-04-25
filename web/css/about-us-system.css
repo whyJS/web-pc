@@ -1,0 +1,53 @@
+/*五大体系开始*/
+	.sys-d1 img{margin-left: -195px;}
+	.sys-d2{padding-bottom: 60px;padding-top: 95px;width: 100%;background-image: url(../images/new/beijing.png);}
+	.sys-d2 div p img{display: inline-block;}
+	.sys-d2 div p{text-align: center;}
+	.sys-d2 div p:last-child{font-size: 24px;color:#333333;line-height: 41px;margin-top: 125px;}
+	.sys-d2 div p:first-child{margin-bottom: 70px;}
+	.sys-d3{padding-top: 50px;padding-bottom: 100px;}
+	.sys-d3 img{display: inline-block;}
+	#sys-con p img{display: inline-block;}
+	#sys-con p{font-size: 26px;color: #262626;line-height: 50px;}
+	.sys-d4-row div{padding: 0px;}
+	.sys-d4{width: 100%;}
+@media only screen and (min-width: 1200px) {
+	.sys-d1{width: 1200px;text-align: left;margin: auto;margin-top: 48px;margin-bottom: 33px;}
+	.sys-d2-body,.sys-d3-body{width: 1200px;text-align: center;margin: auto;}
+	.sys-d3-body p{width: 100%;text-align: center;}
+	.sys-d4-row{width: 600px;margin-right: 0px;margin: auto;}
+	.sys-d4-row h1{font-size: 30px;color: white;padding-top: 40px;padding-bottom: 16px;padding-left: 40px;padding-right: 40px;}
+	.sys-d4-row h6{font-size: 18px;color: white;padding-left: 40px;padding-right: 40px;}
+	.sys-d4-row p{font-size: 18px;color: #FFFFFF;line-height: 38px;padding-left: 40px;padding-right: 40px;}
+}
+@media only screen and (max-width: 1200px) {
+	.sys-d1{width: 100%;margin-top: 48px;margin-bottom: 33px;text-align: left;padding-left: 5px;padding-right: 5px;}
+	.sys-d2-body,.sys-d3-body{width: 100%;text-align: center;margin: auto;}
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.sys-d4-row{width: 100%;}
+	.sys-d4-row{overflow: auto;}
+	.sys-d4-img img{display: block;max-width: 100%;height: auto;}
+	.sys-d4-row h1{font-size: 24px;color: white;padding-top: 0px;padding-bottom: 10px;padding-left: 15px;padding-right: 15px;}
+	.sys-d4-row h6{font-size: 16px;color: white;padding-left: 15px;padding-right: 15px;}
+	.sys-d4-row p{font-size: 16px;color: #FFFFFF;line-height: 20px;padding-left: 15px;padding-right: 15px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.sys-d4-row{width: 100%;}
+	.sys-d4-row{overflow: auto;}
+	.sys-d4-img img{display: block;max-width: 100%;height: auto;}
+	.sys-d4-row h1{font-size: 18px;color: white;padding-top: 0px;padding-bottom: 0px;padding-left: 10px;padding-right: 10px;}
+	.sys-d4-row h6{font-size: 14px;color: white;padding-left: 10px;padding-right: 10px;}
+	.sys-d4-row p{font-size: 14px;color: #FFFFFF;line-height: 16px;padding-left: 10px;padding-right: 10px;}
+}
+@media only screen and (max-width: 768px) {
+	.sys-d4-row{width: 100%;}
+	.sys-d4-img img{display: block;max-width: 100%;height: auto;}
+	.sys-d4-row h1{font-size: 24px;color: white;padding-top: 20px;padding-bottom: 20px;padding-left: 10px;padding-right: 10px;}
+	.sys-d4-row h6{font-size: 16px;color: white;padding-left: 10px;padding-right: 10px;}
+	.sys-d4-row p{font-size: 18px;color: #FFFFFF;line-height: 20px;padding-left: 10px;padding-right: 10px;padding-bottom: 10;margin-bottom: 50px;}
+}
+
+
+/*五大体系结束*/

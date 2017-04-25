@@ -1,0 +1,54 @@
+/*优秀品牌商开始*/
+
+#ZX_span{padding: 0px;}
+.ZX_span_s{display:inline-block;width: 100%;border:0px solid black;height: 1px;background: lightgray;line-height: 24px;}
+@media only screen and (max-width: 767px) {
+.ZX_span_s{display: none;}
+#activity-span{text-align: center;font-size: 18px;color: black;font-weight: 500;}
+#activity_zxhd{padding-top: 30px;padding-bottom: 20px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+#activity-span{text-align: center;font-size: 24px;color: black;font-weight: 500;}
+#activity_zxhd{padding-top: 60px;padding-bottom: 40px;width: 100%;margin: auto;padding-left: 15px;padding-right: 15px;}
+#activity_zxWB{padding-bottom: 60px;}
+}
+@media only screen and (min-width: 1200px) {
+#activity-span{text-align: center;font-size: 24px;color: black;font-weight: 500;}
+#activity_zxWB{padding-bottom: 60px;}
+#activity_zxhd{width: 1200px;margin: auto;padding-top: 60px;padding-bottom: 40px;}
+}
+
+
+/*内容*/
+.yx_bd3_ul_d1{
+	margin: auto;
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	border: 1px solid #E6E6E6;
+	overflow: hidden;
+}
+#yx_bd3_btn{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 80px;
+}
+#yx_bd3_btn span{
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+	color: black;
+	border: 1px solid #FFFFFF;
+	line-height: 28px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+ #yx_bd3_btn .yx_bd3_btn_span{
+	background: lightgray;
+
+}
+.merchant_p1{width: 100%;text-align: center;font-size: 20px;color: #333333;padding-bottom: 20px;padding-top: 20px;font-weight: 600;}
+.merchant_p2{width: 240px;margin: auto;font-size: 14px;color: #666666;line-height: 21px;
+	height: 100px;}
+/*优秀品牌商结束*/

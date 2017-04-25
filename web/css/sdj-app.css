@@ -1,0 +1,36 @@
+/*用户版APP开始*/
+#app_d2{padding-top: 80px;padding-bottom: 0px;}
+#app_d2 .row div{padding-bottom: 30px;}
+#app_d2 .row div :nth-child(2){padding-bottom: 20px; font-size: 28px;color: #4D4D4D;}
+#app_d2 .row div div{font-size: 16px;color: #665f52;}
+#app_d2 .row div p,#app_d2 .row div div{text-align: center;}
+@media only screen and (min-width: 1200px) {
+	#app_d2 .row div{height: 260px;padding-left: 20px;padding-right: 20px;}
+}
+#app_d2 .row div img{display: inline-block;}
+#app_d2 .row div{text-align: center;}
+#app_no1{width: 100%;background: #FFCC00;padding-top: 20px;padding-bottom: 20px;}
+#app_no3{width: 100%;background: #ff9999;padding-top: 20px;padding-bottom: 0px;}
+#app_no2{width: 100%;padding-top: 40px;padding-bottom: 20px;}
+
+
+
+@media only screen and (min-width: 767px) {
+	
+	.ss{display: inline-block;}
+	#app_span{display: inline-block;padding: 5px;background: #FFCC00;}
+#app_no1 div .row div .asd_span,#app_no2 div .row div .asd_span,#app_no3 div .row div .asd_span{font-size: 24px;color: #333333;width: 400px;padding-top: 30px;}	
+#app_no1 div .row div span,#app_no2 div .row div span,#app_no3 div .row div span{font-size: 32px;color: #333333;font-weight: 600;}	
+}
+@media only screen and (max-width: 767px) {
+	
+	.ss{display: none;}
+	#app_span{display: inline-block;padding: 1px;background: #FFCC00;font-size: 18px;}
+	
+	.app-a{padding-right: 5px;padding-bottom: 25px;}
+	
+	#app_no1 div .row div .asd_span,#app_no2 div .row div .asd_span,#app_no3 div .row div .asd_span{font-size: 14px;color: #333333;/*width: 400px;*/padding-top: 30px;font-weight: 500;}	
+	#app_no1 div .row div span,#app_no2 div .row div span,#app_no3 div .row div span{font-size: 20px;color: #333333;font-weight: 600;}
+	#aa{font-weight: 800;font-size: 24px;}
+}
+/*用户版APP结束*/

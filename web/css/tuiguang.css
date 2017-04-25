@@ -1,0 +1,96 @@
+body{
+    background: #cccccc;
+}
+.mainContent{
+    width: 100%;
+    max-width:750px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mainContent img{
+    display: block;
+    width: 100%;
+}
+
+.mainContent .img3{
+    margin-top: -30px;
+}
+.mainContent .img4{
+    margin-top:-60px;
+}
+
+.user-form{
+    width:100%;
+    height:300px;
+    background: #d50000;
+    padding-top: 40px;
+    z-index: 100;
+    position: relative;
+}
+.user-form .colmon{
+    color: #fff;
+    font-size:2rem;
+    font-weight:200;
+}
+
+.user-form .form{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user-form .form .input{
+    height:40px;
+    line-height: 40px;
+    font-size:2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.user-form .submit{
+    width:300px;
+    margin:55px auto;
+    text-align: center;
+}
+
+.user-form .submit button{
+    width:200px;
+}
+
+.user-form .input{
+    border: none;
+    background: #d50000;
+    border-bottom:2px solid #ffffff;
+    color: #fb7171;
+}
+
+.botimg{
+    margin-top:-150px;
+}
+
+#submit{
+    color: #f00;
+    font-size:2rem;
+    font-weight:800;
+    width:100%;
+    height:50px;
+}
+
+@media screen and (max-width: 320px){
+    .user-form .form .input{
+        width:200px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .mainContent .img4{
+        margin-top:-60px;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .mainContent .img4{
+        margin-top:-30px;
+    }
+}

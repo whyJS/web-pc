@@ -1,0 +1,63 @@
+/*优秀品牌商详情开始*/
+.news-content-list{padding-top: 30px;}
+.news-content-list img{max-width: 100%;}
+.news-content-list iframe{width: 100% !important;height:100% !important;}
+.news-content-list iframe video{height:auto !important;}
+
+.news-content-list video{max-width: 100%;clear: both;display: block;margin:auto;}
+.yx_bd3 .aa .num{text-align: center;text-align: -moz-center;}
+.body_p1{
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	color: #1A1A1A;
+}
+.body_p2{
+	text-align: center;
+	
+	margin: auto;
+	border-bottom: 1px solid #666666;
+	padding-bottom: 5px;
+	padding-top: 16px;
+	
+}
+.body_p2+p{
+	margin-top: 20px;
+}
+.body_p2_s1,.body_p2_s2{
+	color: #666666;
+	font-size: 14px;
+	
+}
+.body_p2_s3{
+	color:#e62e4c;
+	font-size: 14px;
+}
+.body_p3,.body_p5{
+	text-align: left;
+	font-size: 14px;
+	color: #4d4d4d;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.body_p4 img{display: inline-block;}
+.body_p4{
+	text-align: center;
+}
+.body_p5_p{
+	width: 100%;
+	text-align: right;
+	padding-top: 20px;
+	color: #1A1A1A;
+	font-size: 14px;
+	padding-bottom: 60px;
+}
+@media only screen and (min-width: 1200px) {
+	.news-content-list{width: 1200px;padding-left: 20px;padding-right: 20px;padding-bottom: 60px;margin: auto;}
+	.body_p2{width: 800px;}
+}
+@media only screen and (max-width: 1200px) {
+	.news-content-list{width: 100%;padding-left: 10px;padding-right: 10px;padding-bottom: 30px;margin: auto;}
+	.body_p2{width: 100%;}
+}

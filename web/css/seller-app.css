@@ -1,0 +1,12 @@
+/*商家版APP*/
+#app_d2_2{padding-top: 80px;padding-bottom: 0px;}
+#app_d2_2 .row div{padding-bottom: 30px;}
+#app_d2_2 .row div :nth-child(2){padding-bottom: 20px; font-size: 28px;color: #4D4D4D;}
+#app_d2_2 .row div div{font-size: 16px;color: #665f52;}
+#app_d2_2 .row div p,#app_d2 .row div div{text-align: center;}
+@media only screen and (min-width: 1200px) {
+	#app_d2_2_no1{width: 1200px;border: 0px solid black;margin: auto;}
+}
+
+
+/*商家版APP结束*/

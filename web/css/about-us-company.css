@@ -1,0 +1,35 @@
+/*公司简介开始*/
+.about-d1 img{margin-left: -195px;}
+.about-d2{width: 100%;background-image: url(../images/new/beijing.png);}
+.about-span2{color: #B3B3B3;font-size: 16px;}
+.about-span1{display: inline-block;padding-left: 15px;font-size: 26px;color: #007bd4;padding-right: 30px;vertical-align: middle;}
+@media only screen and (min-width: 1200px) {
+	.about-ss1{padding-top: 90px;font-size: 24px;color: #1A1A1A;line-height: 36px;}
+	.about-d1{width: 1200px;text-align: left;margin: auto;margin-top: 48px;margin-bottom: 33px;}
+	.about-d2-body{width: 1200px;margin: auto;border: 0px solid black;}
+	.about-d2-body>p{width: 100%;margin: auto;text-align: center;margin-top: 59px;line-height: 33px;font-size: 20px;color: #1A1A1A;}
+	.about-d3 img{display: inline-block;}
+	.about-d3{width: 1200px;margin-top: ;margin-bottom: ;text-align: center;margin: auto;}
+	.about-d3 img{width: 100%;}
+	.llr-img{-webkit-transform:translate(0px,-60px);-moz-transform:translate(0px,-60px);transform:translate(0px,-60px);}
+}
+@media only screen and (max-width: 1200px) {
+	.about-d1{width: 100%;margin-top: 48px;margin-bottom: 33px;text-align: left;}
+	.about-d2-body{width: 100%;margin: auto;border: 0px solid black;}
+	.about-d2-body p{width: 100%;margin: auto;text-align: center;margin-top: 59px;line-height: 33px;font-size: 20px;color: #1A1A1A;}
+	.about-d3 img{display: inline-block;}
+	.about-d3{width: 100%;margin-top: ;margin-bottom: ;text-align: center;}
+	
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.about-ss1{padding-top: 60px;font-size: 20px;color: #1A1A1A;line-height: 24px;}
+	.llr-img{-webkit-transform:translate(0px,-60px);-moz-transform:translate(0px,-60px);transform:translate(0px,-60px);}
+}
+@media only screen and (max-width: 768px) {
+	.about-ss1{padding-top: 30px;font-size: 16px;color: #1A1A1A;line-height: 20px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.llr-img{-webkit-transform:translate(0px,-60px);-moz-transform:translate(0px,-60px);transform:translate(0px,-60px);}
+}
+
+/*公司简介结束*/

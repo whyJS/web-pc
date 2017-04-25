@@ -1,0 +1,36 @@
+/*联系我们开始*/
+/*上面标题*/
+.container_top{padding: 0px;width: 100%;}
+#ZX_span{padding: 0px;}
+.ZX_span_s{display:inline-block;width: 100%;border:0px solid black;height: 1px;background: lightgray;line-height: 24px;}
+@media only screen and (max-width: 767px) {
+.ZX_span_s{display: none;}
+#activity-span{text-align: center;font-size: 18px;color: black;font-weight: 500;}
+#activity_zxhd{padding-top: 30px;padding-bottom: 20px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+#activity-span{text-align: center;font-size: 24px;color: black;font-weight: 500;}
+#activity_zxhd{padding-top: 60px;padding-bottom: 40px;width: 100%;margin: auto;padding-left: 15px;padding-right: 15px;}
+#activity_zxWB{padding-bottom: 60px;}
+}
+@media only screen and (min-width: 1200px) {
+#activity-span{text-align: center;font-size: 24px;color: black;font-weight: 500;}
+#activity_zxWB{padding-bottom: 60px;}
+#activity_zxhd{width: 1200px;margin: auto;padding-top: 60px;padding-bottom: 40px;}
+}
+
+/*内容*/
+@media only screen and (min-width: 1200px) {
+	.contact_map{width: 1200px;}
+	#map-border2{text-align: right;}
+}
+@media only screen and (max-width: 767px) {
+	#map-border2{text-align: center;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	#map-border2{text-align: right;}
+}
+#myMap{width: 100%;height: 100%;}
+
+#map-border{height: 489px;border: 2px solid #b3b3b3;margin-bottom: 40px;padding-left: 0px;padding-right: 0px;}
+/*联系我们结束*/

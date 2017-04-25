@@ -1,0 +1,67 @@
+/*最新活动开始*/
+
+/*#ZX_span{padding-left: 0px;}
+#activity_zxhd :last-child{padding-right: 0px;}*/
+#AC-row-span-id{width: 100%;
+	text-align: center;
+	}
+#AC-row-span-id span{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	color: black;
+	border: 1px solid #E5E5E5;
+	line-height: 30px;
+	margin-right: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+.AC-row-span{background: #f5f5f5;}
+/*.ZX_span_s{display:inline-block;width: 100%;border:0px solid black;height: 1px;background: lightgray;line-height: 24px;}*/
+@media only screen and (max-width: 767px) {
+	#activity_zxWB{margin-bottom: 60px;}
+	#AC-row-span-id{margin-top: 60px;}
+	.AC-smle-none{display: none;}
+	.AC-big-hidden{display: block;padding-top: 60px;}
+	.AC-img{border: 0px solid black;}
+	.AC-img-head{color: #333333;font-size: 24px;text-align: left;border: 0px solid black;padding-left: 15px;}
+	.AC-data{color: #666666;font-size: 14px;padding: 0px;margin-top: 10px;text-align: left;padding-bottom: 20px;padding-left: 15px;}
+	.AC-sp1{color: red;}
+	.AC-sp2{display: inline-block;padding-left: 10px;display: inline-block;padding-left: 0px;color: #666666;font-size: 14px;}
+	.AC-content{display: none;}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.AC-big-hidden{display: none;}
+	.AC-row{margin-bottom: 60px;}
+	#activity_zxWB{margin-top: 60px;margin-bottom: 60px;}
+	.AC-img{border: 0px solid black;padding: 0px;}
+	.AC-img-head{color: #333333;font-size: 20px;padding: 0px;padding-left: 20px;}
+	.AC-data{color: #666666;font-size: 14px;padding: 0px;padding-left: 20px;margin-top: 10px;}
+	.AC-sp1{color: red;}
+	.AC-sp2{display: inline-block;padding-left: 0px;}
+	.AC-content{color: #666666;font-size: 14px;padding: 0px;padding-left: 20px;margin-top: 10px;line-height: 16px;}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.AC-big-hidden{display: none;}
+	.AC-row{margin-bottom: 60px;}
+	#activity_zxWB{margin-top: 60px;margin-bottom: 60px;}
+	.AC-img{border: 0px solid black;padding: 0px;}
+	.AC-img-head{color: #333333;font-size: 24px;padding: 0px;padding-left: 20px;line-height: 15px;}
+	.AC-data{color: #666666;font-size: 14px;padding: 0px;padding-left: 20px;margin-top: 10px;}
+	.AC-sp1{color: red;}
+	.AC-sp2{display: inline-block;padding-left: 0px;color: #666666;font-size: 14px;}
+	.AC-content{color: #666666;font-size: 16px;padding: 0px;padding-left: 20px;margin-top: 20px;line-height: 22px;}
+}
+@media only screen and (min-width: 1200px) {
+	.AC-row{margin-bottom: 60px;}
+	.AC-big-hidden{display: none;}
+	#activity_zxWB{margin-top: 60px;margin-bottom: 60px;}
+	.AC-img{border: 0px solid black;padding: 0px;}
+	.AC-img-head{color: #333333;font-size: 28px;padding: 0px;padding-left: 40px;line-height: 30px;}
+	.AC-data{color: #666666;font-size: 16px;padding: 0px;padding-left: 40px;margin-top: 20px;}
+	.AC-sp1{color: red;}
+	.AC-sp2{display: inline-block;padding-left: 0px;}
+	.AC-content{color: #666666;font-size: 18px;padding: 0px;padding-left: 40px;margin-top: 40px;line-height: 27px;}
+}
+/*最新活动结束*/
